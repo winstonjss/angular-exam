@@ -1,0 +1,16 @@
+<h1>Infografía James</h1>
+<div class="card align-items-center" style="width: 18rem;">
+        <img src="../../../../assets/img/james.jpg" class="card-img-top" alt="...">
+        <div class="mb-3">
+            <button type="button" class="btn btn-primary" (click)="toggleInfo()">Ver mas...</button>
+          </div>
+            <div class="mb-3" *ngIf="showInfo">
+              <p>nombre: "James Rodriguez"</p>
+              <p>bio: "futbolista colombiano, que juega como centrocampista y su equipo actual es Al Rayyan S. C. de la Qatar Stars League. Recibió en 2009, 2012 y 2014 el premio de jugador revelación de la Primera División de Argentina y en la Primeira Liga de Portugal."</p>            
+              <p>img: "assets/img/james.jpg"</p>
+              <p>nacimiento: "12 de julio de 1991",</p>
+              <p>seleccion:"Colombia"</p>
+              <p>equipo:"Everton"</p>
+        </div>
+</div>
+<a [routerLink]="['../home']" class="boton">Home </a>

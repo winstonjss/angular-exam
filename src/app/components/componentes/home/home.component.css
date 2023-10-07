@@ -1,0 +1,15 @@
+.card-img-top{
+    height: 400px;
+    width: 300px;
+    margin-left: 60px;
+}
+h1{
+    text-align: center;
+}
+a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+    font-size: 28px;    
+}

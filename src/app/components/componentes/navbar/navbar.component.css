@@ -1,0 +1,10 @@
+.navbar {
+    background: rgba(77, 146, 77, 0.822);
+    height: 80px;
+    color: white;    
+}
+.texto{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}

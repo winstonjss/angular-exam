@@ -1,0 +1,19 @@
+<h1>Infografía Messi</h1>
+<div *ngFor="let valor of jugador first as isFirst">
+    <div *ngIf="isFirst">
+    <div class="card">            
+      <img [src]="valor.img" class="card-img-top" [alt]="valor.nombre">
+      <div class="card-body">
+        <h5 class="card-title">nombre:{{valor.nombre}}</h5>
+        <p class="card-text">bio:{{valor.bio}}</p>      
+      </div>
+      <div class="card-footer">
+        <small class="text-mmuted">img:{{valor.img}}</small><br>
+        <small class="text-mmuted">nacimiento:{{valor.nacimiento}}</small><br>
+        <small class="text-mmuted">seleccion:{{valor.seleccion}}</small><br>
+        <small class="text-mmuted">equipo:{{valor.equipo}}</small>
+      </div>
+    </div>
+</div>
+</div>
+<a [routerLink]="['../home']" class="boton">Home </a>

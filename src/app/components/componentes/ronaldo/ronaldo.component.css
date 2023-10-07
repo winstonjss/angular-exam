@@ -1,0 +1,15 @@
+.card-img-top{
+    height: 300px;
+    width: 300px;
+    margin-left: 420px;
+}
+.boton{
+    background-color: black;
+    background: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 1000px;
+}
+h1{
+    text-align: center;
+}

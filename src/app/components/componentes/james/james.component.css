@@ -1,0 +1,15 @@
+.card{
+    align-items: center;
+    align-content: center;
+    margin-left: 480px;    
+}
+h1{
+    text-align: center;
+}
+.boton{
+    background-color: black;
+    background: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 1000px;
+}
